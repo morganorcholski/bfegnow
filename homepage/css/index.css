@@ -1,0 +1,253 @@
+/* this is where all of your CSS styles go */
+
+body, html {
+	height: 100%;
+	width: 100%;
+	border: 0;
+	/* background-color: #e6e6e6; */
+
+}
+
+/* embedded fonts */
+@font-face {
+	font-family: title;
+	src: url(../../fonts/pt_sans_narrow/regular.ttf);
+}
+
+.text {
+	font-family: title;
+	font-size: 40px;
+	color: #161616;
+
+}
+
+@font-face {
+	font-family: story;
+	src: url(../../fonts/opensans/regular.ttf);
+}
+
+.text {
+	font-family: story;
+	font-size: 16px;
+	color: #161616;
+
+}
+
+@font-face {
+	font-family: OSBold;
+	src:url(../fonts/OpenSans/OpenSans-Bold.ttf);
+}
+
+
+#header {
+	width: 1400px;
+	height: 800px;
+}
+
+#menu{
+	width: 1400px;
+	height: 135px;
+	background-color: #161616;
+}
+
+#logo{
+	margin-top: -80px;
+	margin-left: 400px;
+
+}
+
+
+/* #menu_scroll{
+	width: 1400px;
+	height: 60px;
+	background-color: #161616;
+	position: fixed;
+	top: 0;
+	left: 0px;
+}
+*/
+
+/* #logo2 {
+	margin-left: 20px;
+	width: 112px;
+	height: 57.6px;
+}
+*/
+
+/* .button2 {
+	font-family: OpenSans-Semibold;
+	width: 1300px;
+	color: #6e6e6e;
+	font-size: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 40px;
+	height: 30px;
+	top: 0;
+	left: 50%;
+	margin-top: 23px;
+}
+*/
+
+/*#logo{
+	margin-left: 20px;
+	width: 112px;
+	height: 57.6px;
+}
+*/
+a {
+	text-decoration: none;
+	color: #161616;
+}
+
+a:visited {
+	color: #161616;
+}
+
+a:hover, a:active {
+	font-size: 25px;
+}
+
+.button {
+	font-family: OpenSans-Semibold;
+	width: 1100px;
+	color: #161616;
+	font-size: 20px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	margin-top: 950px;
+	margin-left: 85px;
+}
+
+.link {
+	margin-left: 85px;
+	position: relative;
+	color: #161616;
+}
+
+.link:nth-child(2) {
+	margin-left: 85px;
+	color: #161616;
+}
+
+
+#sidebar{
+	margin-left: 100px;
+}
+
+#weather{
+	height: 192px;
+	width: 372px;
+	margin-top: 50px;
+	margin-left: 25px;
+}
+
+.sbtitle{
+	font-family: OpenSans-Semibold;
+	font-size: 30px;
+	color: #161616;
+
+}
+
+.social{
+	height: 50px;
+	width: 50px;
+	margin-left: 50px;
+	color: #161616;
+}
+
+
+.nearby {
+	font-family: OpenSans-Light;
+	list-style-type: none;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.name {
+	color: 161616;
+	text-decoration: none;
+}
+
+#stories {
+	margin-left: 600px;
+	margin-top: -1225px;
+	position: static;
+
+}
+
+.imgs {
+	height: 175px;
+	width: 175px;
+}
+
+.caption {
+	width: 175px;
+	height: 87px;
+	font-family: story;
+	font-size: 16px;
+}
+
+#bigstory {
+	height: 400px;
+	width: 400px;
+}
+
+#feat {
+	margin-left: 600px;
+	margin-top: 50px;
+}
+
+#pod {
+	width: 576px;
+	height: 384px;
+}
+
+#footer{ 
+	width: 1400px;
+	height: 220px;
+	background-color: #161616;
+	margin-top: 50px; 
+}
+
+#footing {
+	margin-top: -50px;
+}
+
+#list{
+	margin-left: 600px;
+	margin-top: -250px;
+	font-family: story;
+	list-style-type: none;
+	color: #e6e6e6;
+}
+
+
+.icons{
+	margin-left: 900px;
+	margin-top: -150px;
+	color: #e6e6e6;
+
+}
+
+.social {
+	height: 50px;
+	width: 50px;
+	padding-left: 20px;
+}
+
+#copy{
+	color: #e6e6e6;
+	margin-left: 920px;
+	margin-top: 20px;
+	font-family: story;
+
+}
+
+
+
+
+
+
